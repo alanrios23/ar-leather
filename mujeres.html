@@ -8,28 +8,56 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <header>
-        </header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo-ar.png" alt="AR Leather Logo">
+                </a>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="hombres.html">Hombres</a></li>
+                <li><a href="mujeres.html">Mujeres</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            <div class="nav-icons">
+                <span>🔍</span>
+                <span>👤</span>
+                <span>🛒</span>
+            </div>
+        </nav>
+    </header>
 
     <main style="padding-top: 120px;">
-        <section class="product-intro">
-            <h1 style="text-align: center; font-family: 'Playfair Display'; font-size: 50px;">Vanguardia Femenina</h1>
-            <p style="text-align: center; color: #888; max-width: 600px; margin: 0 auto 60px;">Elegancia atemporal con la fuerza del cuero auténtico.</p>
+        <section class="product-intro" style="text-align: center; margin-bottom: 60px; padding: 0 20px;">
+            <h1 style="font-family: 'Playfair Display'; font-size: 50px; color: #f2f2f2;">Vanguardia Femenina</h1>
+            <p style="color: #888; max-width: 600px; margin: 0 auto; font-size: 18px;">Elegancia técnica. Siluetas contemporáneas que preservan la fuerza rústica del cuero auténtico.</p>
         </section>
 
-        <section class="product-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 40px; padding: 0 5%;">
-            <div class="product-card" style="background: #151515; border: 1px solid #222; padding: 20px;">
-                <div style="height: 400px; background: #222; margin-bottom: 20px;">
-                    </div>
-                <h3 style="font-family: 'Playfair Display'; font-size: 24px; margin-bottom: 10px;">Chaqueta Época</h3>
-                <div class="tech-specs" style="font-size: 13px; color: #8C7851; border-top: 1px solid #333; padding-top: 15px; margin-top: 15px;">
-                    <p><strong>ESTILO:</strong> Contemporáneo / Entallado</p>
-                    <p><strong>CUERO:</strong> Nappa Premium 1.1mm (Suave pero resistente)</p>
-                    <p><strong>DETALLE:</strong> Acabado Mate con costuras invisibles</p>
+        <section class="product-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px; padding: 0 5% 100px;">
+            <div class="product-card" style="background: #121212; border: 1px solid #222; padding: 25px; transition: 0.3s;">
+                <div style="height: 450px; background: #1a1a1a; margin-bottom: 25px; display: flex; align-items: center; justify-content: center; border: 1px solid #2a2a2a;">
+                    <p style="color: #444; font-size: 12px; letter-spacing: 2px;">[ IMAGEN: CHAQUETA ÉPOCA ]</p>
                 </div>
-                <a href="#" class="btn-primary" style="display: block; text-align: center; margin-top: 20px; padding: 15px;">Ver Detalles</a>
+                <h3 style="font-family: 'Playfair Display'; font-size: 26px; margin-bottom: 15px;">Chaqueta Época</h3>
+                <div class="tech-specs" style="font-size: 13px; color: #8C7851; border-top: 1px solid #333; padding-top: 20px; line-height: 2;">
+                    <p><strong>ESTILO:</strong> Contemporáneo / Entallado</p>
+                    <p><strong>CUERO:</strong> Nappa Premium 1.1mm</p>
+                    <p><strong>DETALLE:</strong> Costuras reforzadas de alta precisión</p>
+                    <p><strong>ACABADO:</strong> Mate Natural</p>
+                </div>
+                <a href="#" class="btn-primary" style="display: block; text-align: center; margin-top: 30px; padding: 18px; text-decoration: none;">Ver Detalles</a>
             </div>
         </section>
     </main>
+
+    <footer style="padding: 40px; text-align: center; border-top: 1px solid #222; color: #555;">
+        <p>&copy; 2026 AR Leather - Bogotá, Colombia.</p>
+    </footer>
+
 </body>
 </html>
