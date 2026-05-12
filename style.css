@@ -33,9 +33,19 @@ header {
     margin: 0 auto;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
 .logo img {
-    height: 50px;
-    filter: brightness(1.2);
+    height: 55px; /* Tamaño ideal para que se vea serio e imponente */
+    transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.02); /* Un movimiento muy sutil, nada futurista */
 }
 
 .nav-links {
